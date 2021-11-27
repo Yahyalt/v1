@@ -8,21 +8,21 @@
   }
 
   &__text {
-    color: darken($white-color, 50%);
+    color: darken($link-footer, 50%);
     font-size: 1.3rem;
 
     a {
-      color: darken($white-color, 50%);
+      color: darken($link-footer, 50%);
       font-size: 1.3rem;
       transition: all 0.4s;
       display: inline-block;
-      background-color: $dark-grey;
+      // background-color: $dark-grey;
 
       &:hover,
       &:active {
-        color: $primary-color;
-        -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+        color: $link-footer;
+        -webkit-box-shadow: 0 1.5rem 4rem rgba(255, 255, 255, 0.15);
+        box-shadow: 0 1.5rem 4rem rgba(255, 255, 255, 0.15);
       }
     }
   }
